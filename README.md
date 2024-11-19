@@ -4,13 +4,13 @@ Welcome to the official repository for the **_Jay Facilities and Services_** lan
 
 # Table of Contents
 
-- Project Description
-- Technologies Used
-- Features
-- Installation
-- Usage
-- Contributing
-- License
+- [Project Description](#project-description)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 # Project Description
 
@@ -43,18 +43,21 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 <pre>
-bash
+
+````bash
 Copy code
 git clone https://github.com/your-username/jay-facilities-landing.git
 </pre>
 
 2. Navigate to the project directory:
-<pre>bash
+<pre>
+```bash
 Copy code
 cd jay-facilities-landing</pre>
 
 3. If the project uses a package manager (like npm), install dependencies:
-<pre>bash
+<pre>
+```bash
 Copy code
 npm install</pre>
 
@@ -63,7 +66,8 @@ npm install</pre>
 To view the landing page locally:
 
 1. Run the development server:
-<pre>bash
+<pre>
+```bash
 Copy code
 npm run dev</pre>
 
@@ -75,12 +79,14 @@ We welcome contributions to improve the landing page. To contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature:
-<pre>bash
+<pre>
+```bash
 Copy code
 git checkout -b feature-name</pre>
 
 3. Commit your changes:
-<pre>bash
+<pre>
+```bash
 Copy code
 git commit -m "Add your message here"</pre>
 
@@ -89,3 +95,4 @@ git commit -m "Add your message here"</pre>
 # License
 
 This project is licensed under the MIT License.
+````
