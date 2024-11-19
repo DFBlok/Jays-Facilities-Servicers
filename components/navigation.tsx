@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-/* import { Button } from "@/components/ui/button"; */
+import { Button } from "@/components/ui/button";
 import { Wrench } from "lucide-react";
 
 const routes = [
@@ -39,12 +39,7 @@ export function Navigation() {
               {route.label}
             </Link>
           ))}
-          {/* <Button>Get a Quote</Button> */}
-          <div>
-            <h2 className="bg-blue-600 p-2 font-semibold rounded-full">
-              Get a Quote
-            </h2>
-          </div>
+          <Button>Get a Quote</Button>
         </nav>
       </div>
     </header>
