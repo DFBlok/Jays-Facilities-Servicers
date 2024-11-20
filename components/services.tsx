@@ -46,7 +46,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="bg-red-900 py-12">
+    <section className="bg-red-900 py-12 ">
       <div className="flex flex-col items-center text-center space-y-4 mb-12">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
           Our Services
@@ -59,7 +59,7 @@ const Services = () => {
         {services.map((service) => (
           <Card
             key={service.title}
-            className="p-6 flex flex-col items-center text-center space-y-4 hover:shadow-lg transition-shadow"
+            className="p-6 flex flex-col items-center text-center space-y-4 hover:shadow-lg transition-shadow mx-9"
           >
             <service.icon className="h-12 w-12 text-primary" />
             <h3 className="text-xl font-semibold">{service.title}</h3>

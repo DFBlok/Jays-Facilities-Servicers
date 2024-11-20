@@ -5,7 +5,7 @@ import { ArrowRight, Shield, Clock, Award } from "lucide-react";
 
 const hero = () => {
   return (
-    <section className="container pt-24 pb-12">
+    <section className="bg-pink-200 pt-24 pb-12">
       <div className="flex flex-col items-center text-center space-y-8">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
           Professional Maintenance
