@@ -13,7 +13,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section className=" py-12 bg-muted/50 bg-yellow-500">
+    <section className=" py-12 bg-muted/50 bg-orange-300">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mx-10">
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">

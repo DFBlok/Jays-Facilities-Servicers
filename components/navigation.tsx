@@ -61,7 +61,9 @@ export function Navigation() {
               {route.label}
             </Link>
           ))}
-          <Button>Get a Quote</Button>
+          <Button className="bg-orange-500 hover:bg-orange-200 hover:text-white">
+            Get a Quote
+          </Button>
         </nav>
       </div>
 
@@ -87,7 +89,12 @@ export function Navigation() {
               </li>
             ))}
             <li className="text-center p-2 ">
-              <Button onClick={toggleMenu}>Get a Quote</Button>
+              <Button
+                onClick={toggleMenu}
+                className="bg-orange-500 hover:bg-orange-200 hover:text-white"
+              >
+                Get a Quote
+              </Button>
             </li>
           </ul>
         </nav>

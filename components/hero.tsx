@@ -5,7 +5,7 @@ import { ArrowRight, Shield, Clock, Award } from "lucide-react";
 
 const hero = () => {
   return (
-    <section className="bg-pink-200 pt-24 pb-12">
+    <section className="bg-orange-300 pt-24 pb-12">
       <div className="flex flex-col items-center text-center space-y-8">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
           Comprehensive Solutions
@@ -18,11 +18,18 @@ const hero = () => {
           always at your service.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Button size="lg">
+          <Button
+            size="lg"
+            className="bg-orange-500 hover:bg-orange-200 hover:text-white"
+          >
             Get Started
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
-          <Button size="lg" variant="outline">
+          <Button
+            className="hover:bg-black hover:text-white"
+            size="lg"
+            variant="outline"
+          >
             Explore Our Services
           </Button>
         </div>
