@@ -99,24 +99,24 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3>Contact</h3>
+            <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="text-sm text-muted-foreground">
-                1234 Maintenance Ave
+                2154 Albany Ave
                 <br />
-                City, State 12345
+                Gqeberha, Bethelsdorp 6059
               </li>
               <li>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+2445656898"
                   className="text-sm text-muted-foreground hover:text-primary"
                 >
-                  (123) 456-7890
+                  (024) 456 5698
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:info@maintenancepro.com"
+                  href="mailto:info@jaysolutions.com"
                   className="text-sm text-muted-foreground hover:text-primary"
                 >
                   info@maintenancepro.com

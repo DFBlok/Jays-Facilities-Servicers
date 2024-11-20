@@ -56,14 +56,16 @@ const Services = () => {
           property’s needs.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {services.map((service) => (
           <Card
             key={service.title}
-            className="p-6 flex flex-col items-center text-center space-y-4 hover:shadow-lg transition-shadow mx-9"
+            className="p-6 flex flex-col items-center text-center space-y-4 hover:shadow-lg transition-shadow mx-9 bg-cyan-900"
           >
-            <service.icon className="h-12 w-12 text-primary" />
-            <h3 className="text-xl font-semibold">{service.title}</h3>
+            <service.icon className="h-12 w-12 text-primary text-white" />
+            <h3 className="text-xl font-semibold text-white">
+              {service.title}
+            </h3>
             <p className="text-muted-foreground">{service.description}</p>
             <Button variant="outline" className="mt-auto">
               Explore Service
