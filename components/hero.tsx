@@ -8,13 +8,14 @@ const hero = () => {
     <section className="bg-pink-200 pt-24 pb-12">
       <div className="flex flex-col items-center text-center space-y-8">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-          Professional Maintenance
+          Comprehensive Solutions
           <br />
-          <span className="text-primary">You Can Trust</span>
+          <span className="text-primary">For Every Need</span>
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Expert maintenance services for your home and business. 24/7 support,
-          certified professionals, and guaranteed satisfaction.
+          Whether it's maintenance, repairs, or projects—our team offers
+          tailored solutions for homes and businesses. Reliable, efficient, and
+          always at your service.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Button size="lg">
@@ -22,25 +23,26 @@ const hero = () => {
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
           <Button size="lg" variant="outline">
-            View Services
+            Explore Our Services
           </Button>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-12">
           {[
             {
               icon: Shield,
-              title: "Licensed & Insured",
-              description: "Fully certified professionals",
+              title: "Trusted Experts",
+              description:
+                "Certified professionals for a wide range of services",
             },
             {
               icon: Clock,
-              title: "24/7 Support",
-              description: "Always here when you need us",
+              title: "Around the Clock Support",
+              description: "Available whenever you need assistance",
             },
             {
               icon: Award,
-              title: "Satisfaction Guaranteed",
-              description: "100% satisfaction or money back",
+              title: "Quality You Can Count On",
+              description: "We deliver reliable results on every project",
             },
           ].map((feature) => (
             <div

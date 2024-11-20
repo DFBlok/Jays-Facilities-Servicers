@@ -20,12 +20,13 @@ const Features = () => {
             Why Choose Jay's Faclities Solutin & Projects
           </h2>
           <p className="text-lg text-muted-foreground">
-            We deliver excellence in maintenance services with a focus on
-            quality, reliability, and customer satisfaction.
+            We offer comprehensive services with a focus on quality,
+            reliability, and customer satisfaction, ensuring your property is
+            always well cared for.
           </p>
           <ul className="grid gap-4 mt-8">
             {features.map((feature) => (
-              <li>
+              <li key={feature} className="flex items-center">
                 <Check className="h-5 w-5 text-primary" />
                 <span>{feature}</span>
               </li>

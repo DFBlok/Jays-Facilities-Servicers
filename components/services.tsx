@@ -49,10 +49,11 @@ const Services = () => {
     <section className="bg-red-900 py-12 ">
       <div className="flex flex-col items-center text-center space-y-4 mb-12">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-          Our Services
+          Our Expertise, Your Peace of Mind
         </h2>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Comprehensive maintainance solutions tailored to your needs
+          A wide range of professional services to support and maintain your
+          property’s needs.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -65,7 +66,7 @@ const Services = () => {
             <h3 className="text-xl font-semibold">{service.title}</h3>
             <p className="text-muted-foreground">{service.description}</p>
             <Button variant="outline" className="mt-auto">
-              Learn More
+              Explore Service
             </Button>
           </Card>
         ))}
